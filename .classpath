@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Resource"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_45">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="sina"/>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/h2-1.3.171.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/slf4j-api-1.7.16.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/slf4j-log4j12-1.7.21.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-dbcp-1.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-dbutils-1.6.jar" sourcepath="C:/Users/DHUser/.m2/repository/commons-dbutils/commons-dbutils/1.6/commons-dbutils-1.6-sources.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-fileupload-1.3.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-io-1.3.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-lang3-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/memcached-2.3.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/memcached-plugin.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/socketio/netty-buffer-4.1.0.CR2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/socketio/netty-codec-4.1.0.CR2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/socketio/netty-codec-http-4.1.0.CR2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/socketio/netty-common-4.1.0.CR2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/socketio/netty-handler-4.1.0.CR2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/socketio/netty-resolver-4.1.0.CR2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/socketio/netty-socketio-1.7.9.jar" sourcepath="C:/Users/DHUser/.m2/repository/com/corundumstudio/socketio/netty-socketio/1.7.9/netty-socketio-1.7.9-sources.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/socketio/netty-transport-4.1.0.CR2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/socketio/netty-transport-native-epoll-4.1.0.CR2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jackson/jackson-annotations-2.3.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jackson/jackson-core-2.3.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jackson/jackson-databind-2.3.3.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jackson/javassist-3.12.1.GA.jar" sourcepath="C:/Users/DHUser/.m2/repository/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA-sources.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jackson/javax.servlet-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/activeMq/activemq-core-5.4.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/activeMq/activemq-client-5.13.3.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/activeMq/activemq-jms-pool-5.13.3.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/activeMq/activemq-pool-5.13.3.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/activeMq/geronimo-jms_1.1_spec-1.1.1.jar" sourcepath="C:/Users/DHUser/.m2/repository/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/poi/poi-3.13.jar" sourcepath="C:/Users/DHUser/.m2/repository/org/apache/poi/poi/3.13/poi-3.13-sources.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/xml/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/redis/commons-pool-1.5.6.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/redis/commons-pool2-2.4.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mybatis/mybatis-3.1.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-pool-1.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/java_memcached-release_2.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/redis/jedis-2.1.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/h2/h2-1.3.171.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/memcache/java_memcached-release_2.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/memcache/memcached-2.3.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/memcache/memcached-plugin.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/javax/geronimo-j2ee-management_1.0_spec-1.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spider/htmllexer.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spider/htmlparser.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spider/httpclient-4.2.5.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spider/httpcore-4.2.4.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-server/cas-server-core-3.4.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-server/cas-server-integration-berkeleydb-3.4.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-server/cas-server-integration-jboss-3.4.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-server/cas-server-integration-memcached-3.4.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-server/cas-server-integration-restlet-3.4.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-server/cas-server-support-generic-3.4.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-server/cas-server-support-jdbc-3.4.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-server/cas-server-support-ldap-3.4.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-server/cas-server-support-legacy-3.4.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-server/cas-server-support-openid-3.4.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-server/cas-server-support-radius-3.4.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-server/cas-server-support-spnego-3.4.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-server/cas-server-support-trusted-3.4.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-server/cas-server-support-x509-3.4.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-client/cas-client-core-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-client/cas-client-integration-atlassian-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-client/cas-client-integration-jboss-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-client/cas-client-integration-tomcat-common-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-client/cas-client-integration-tomcat-v6-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-client/cas-client-integration-tomcat-v7-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-client/cas-client-support-distributed-ehcache-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cas-client/cas-client-support-distributed-memcached-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/gc/GChisto.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/gc/jcommon-1.0.12.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/gc/jfreechart-1.0.9.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/gc/swing-layout-1.0.3.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/erweima/jmagick.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/erweima/QRCode.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/erweima/Qrcodeen.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/erweima/Qrcode_swetake.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/erweima/zxingcore-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/erweima/zxingjavase-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/quartz-1.8.6.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jmx/jmxri-1.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jmx/jmxtools-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DHUser/.m2/repository/jboss/jboss-j2ee/4.0.0/jboss-j2ee-4.0.0.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+			<attribute name="maven.groupId" value="jboss"/>
+			<attribute name="maven.artifactId" value="jboss-j2ee"/>
+			<attribute name="maven.version" value="4.0.0"/>
+			<attribute name="maven.scope" value="provided"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/ejb/jbossall-client-3.2.6.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mail/mail.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/guava-google/guava-20.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/xercesImpl-2.6.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jaxen-1.1.6.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-aop-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

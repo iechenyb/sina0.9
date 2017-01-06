@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="sina">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/lib" source-path="/WebContent/WEB-INF/lib/jmx"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Resource"/>
+        <property name="context-root" value="sina"/>
+        <property name="java-output-path" value="/sina/build/classes"/>
+    </wb-module>
+</project-modules>

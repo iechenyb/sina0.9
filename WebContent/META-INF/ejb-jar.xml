@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar xmlns="http://java.sun.com/xml/ns/j2ee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+version="2.1"
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/ejb-jar_2_1.xsd">
+ <display-name>ConverJAR</display-name>
+ <enterprise-beans>
+    <session>
+      <display-name>ConverterEJB</display-name>
+      <ejb-name>ConverterEJB</ejb-name>
+      <home>com.cyb.ejb.ConverterHome</home>
+      <remote>com.cyb.ejb.Converter</remote>
+      <ejb-class>com.cyb.ejb.ConverterEJB</ejb-class>
+      <session-type>Stateless</session-type>
+      <transaction-type>Bean</transaction-type>
+      <security-identity>
+        <use-caller-identity/>
+      </security-identity>
+    </session>
+ </enterprise-beans>
+</ejb-jar>

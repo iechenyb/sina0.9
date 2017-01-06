@@ -1,0 +1,8 @@
+2016-06-15 10:00:22,773 ERROR This is apache error message [main] - LogUtil
+2016-06-15 10:00:22,773 ERROR This is slf4j error message [main] - LogUtil
+2016-06-15 10:01:06,270 ERROR This is apache error message [main] - LogUtil
+2016-06-15 10:01:06,271 ERROR This is slf4j error message [main] - LogUtil
+2016-06-15 10:02:01,667 ERROR This is apache error message [main] - LogUtil
+2016-06-15 10:02:01,667 ERROR This is slf4j error message [main] - LogUtil
+2016-06-15 10:02:51,075 ERROR This is apache error message [main] - LogUtil
+2016-06-15 10:02:51,075 ERROR This is slf4j error message [main] - LogUtil

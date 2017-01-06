@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	   		http://www.springframework.org/schema/context
+	   		http://www.springframework.org/schema/context/spring-context-3.0.xsd
+			http://www.springframework.org/schema/mvc
+			http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+			http://www.springframework.org/schema/task
+			http://www.springframework.org/schema/task/spring-task-3.1.xsd
+			http://www.springframework.org/schema/aop
+			http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+			">
+	<!-- public -->
+    <bean id="human" class="com.cyb.spring.aop.Human"></bean> 
+     <!--  方法执行前后加入aop方法 -->
+	<bean id="sleepAOP" class="com.cyb.spring.aop.SleepAOP"></bean> 
+	
+	<!-- 方法一 匹配要切入的方法 -->
+	<bean id="sleepPointcut" class="org.springframework.aop.support.JdkRegexpMethodPointcut">  
+  		 <property name="pattern" value=".*sleep"/> 
+	</bean> 
+   <!--  <bean id="sleepAopAdvisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">  
+     	<property name="pointcut" ref="sleepPointcut"/>  
+     	<property name="advice" ref="sleepAOP"/> 
+	</bean>   -->
+	<!--<bean id="humanProxy" class="org.springframework.aop.framework.ProxyFactoryBean">  
+	     <property name="target" ref="human"/>  
+	     <property name="interceptorNames" value="sleepAopAdvisor" />  
+	     <property name="proxyInterfaces" value="com.spring.aop.Sleepable" />  
+	</bean>   -->
+	
+	<!-- 方法二 -->
+	<!-- <bean id="sleepAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">  
+	    <property name="pattern" value=".*sleep"/>  
+	   <property name="advice" ref="sleepAOP"/>  
+	 </bean>   -->
+	<!-- <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"/>  --> 	
+	<!-- 方法三 -->
+	 <aop:config>  
+	    <aop:aspect ref="sleepAOP">  
+		    <aop:before method="beforeSleep" pointcut="execution(* *.sleep(..))"/>  
+		    <aop:after method="afterSleep" pointcut="execution(* *.sleep(..))"/>  
+		    <aop:around method="around" pointcut="execution(* *.sleep(..))"/> 
+		    <aop:after-throwing method="afterThrow" pointcut="execution(* *.sleep(..))"/>
+		    <aop:after-returning method="afterReturn" pointcut="execution(* *.sleep(..))"/>
+	    </aop:aspect>  
+	</aop:config>  
+	<!-- 方法四  多个表达式需要用or连接，否则会出问题！对所有的匹配成功的方法进行处理-->
+	<!-- <aop:config>
+		 <aop:pointcut id="xxxxxx" expression="execution(* *.sleep(..))"/> 不需要指定human对象
+		 <aop:advisor pointcut-ref="sleepPointcut" advice-ref="sleepAOP" /> 		 
+		 <aop:advisor pointcut="execution(* *.sleep(..)) or execution(* *.sleep1(..))" advice-ref="sleepAOP" />  
+	</aop:config>  -->
+	<!-- 方法5 多个表达式需要用or连接，否则会出问题！对所有的匹配成功的方法进行处理-->
+	<!-- <aop:config>
+		 <aop:pointcut id="xxxxxx" expression="execution(* *.sleep(..)) or execution(* *.sleep1(..))"/>
+		 <aop:advisor pointcut-ref="xxxxxx" advice-ref="sleepAOP" /> 		 
+	</aop:config>  -->
+</beans>

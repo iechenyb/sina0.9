@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"  
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/context 
+           http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+      <bean id="chinese"  class="com.cyb.spring.Chinese">
+         <property name="axe" ref="stoneAxe"/><!--属性方法的注入  -->
+         <property name="name" value="chenyb"/><!--属性方法的注入  -->
+         <property name="age" value="100"/><!--属性方法的注入  -->
+            <!--构造方法的注入  -->
+      </bean>
+      <bean id="stoneAxe" class="com.cyb.spring.StoneAxe"/>
+</beans>
